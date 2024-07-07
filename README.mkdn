@@ -1,7 +1,7 @@
 ![alt text][logo]
 
   [logo]:https://crdroid.net/img/logo.png ""
-* Below features are as of 11 November, 2023 in the crDroid Android source.
+* Below features are as of 07 July, 2024 in the crDroid Android source.
 * Few of them are specific to certain devices - e.g. button settings, fingerprint vibration toggle, etc.
 
 Translations
@@ -28,7 +28,11 @@ Status Bar
   * Clock style
   * Clock & date customization
   * Network Traffic monitor and customization
+  * Data disabled indicator toggle
+  * 4G/LTE toggle
+  * Roaming indicator toggle
   * BT battery status toggle
+  * Wifi standard info
   * Mic and camera privacy indicator toggle
   * Location privacy indicator toggle
   * Media projection privacy indicator toggle
@@ -49,24 +53,31 @@ Status Bar
 Quick Settings
 ----------
 * Miscellaneous
+  * Header image
   * Battery style and percentage customization
   * Hide QS on secure lockscreen
+  * Dual tone themed colors toggle
   * Background transparency
+  * Automatic bluetooth on for QS tap
 * Brightness slider
-  * Where to show
+  * When to show
   * Position
   * Haptic feedback
   * Auto birghtness toggle
 * Tiles layout
+  * QS tiles style
+  * QS panel style
   * Hide label
   * Label text size
   * Vertical layout
   * Columns number customization
+  * Row number customization
 * Tiles animation
   * Animation style
   * Animation duration
   * Animation interpolator
 * Footer
+  * Data usage toggle
   * Clear notifications button
 
 Lock Screen
@@ -74,13 +85,17 @@ Lock Screen
 * Clock
   * Clock font style
 * Interface
-  * Media cover art toggle
-  * Media cover art filter
-  * Weather condition
-  * Weather location
   * Battery info toggle
+* Weather
+  * Weather settings
+  * Weather update toggle
+  * Current location toggle
+  * Current condition toggle
 * Gestures
   * Tap to sleep toggle
+  * UDFPS icon picker
+  * UDFPS custom animation
+  * Screen off UDFPS toggle
   * Fingerprint authentication vibration toggle
   * Fingerprint error vibration toggle
   * Ripple effect
@@ -140,6 +155,7 @@ User Interface
 * Charging animation
 * Full screen apps
 * Screen off animation
+* Smart Pixels
 * Monet settings
   * Custom accent color picker
   * Custom background color picker
@@ -157,15 +173,18 @@ User Interface
 Notifications
 ----------
 * Alert slider notifications (device specific)
-* reTicker
-* Use app colored background toggle (reTicker)
 * Noisy notifications toggle
 * Force stop button toggle
+* Show clipboard overlay toggle
 * Heads up
   * Heads up toggle
-  * Less boring
-  * Time out
-  * Clipboard overlay
+  * Island notification
+  * Less boring toggle
+  * Timeout interval customization
+* Flashlight
+  * Blink flashlight on incoming call toggle
+  * Ignore DND
+  * Custom blink rate
 
 Sound
 ----------
@@ -192,7 +211,6 @@ Misc
   * Sensor block toggle
   * Sensor blok app list
 * Pocket detection - prevents device interaction when inside pocket
-* Weather settings
 
 About crDroid
 ----------
@@ -206,4 +224,3 @@ About crDroid
 * Telegram Updates channel
 * Sponsors
 * Updates (directly via OTA)
-* The drill
